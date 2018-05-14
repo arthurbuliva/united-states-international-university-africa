@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{fullpage}
+\usepackage{multicol}
+%\usepackage{times}
+%\usepackage{palatino}
+\begin{document}
+
+\noindent
+\begin{center}
+\textbf{
+{\huge Power Line Communication: An Introduction}
+}\\
+\vspace{0.2in}
+Arthur Buliva\\
+\emph{United States International University - Africa}\\
+abuliva@usiu.ac.ke
+\end{center}
+
+
+
+\begin{multicols}{2}
+
+\section*{Abstract}
+Despite broadband Internet technology having spread in the last few years, there still are areas of the world with no access to the Internet. Laying of cables is too great a cost when weighted against the number of Internet customers, particularly in rural areas.
+
+We can leverage on the already existing infrastructure of the electricity grids in otder to provide connectivity.
+
+Broadband over power lines communication systems work by delivering data connections over existing power lines. Although the technology is not new, the advancement in this field has made it increasingly practical in recent years.
+
+In this paper, a general overview of this technology will be presented.
+
+\section*{Introduction}
+
+Broadband over powerlines is a technology that offers potential reach to the last mile, since many people are already connected to their national power grids.
+
+Using power lines to communicate medium has a history that goes back to 1950, when power lines were used as a medium to send a control messages. Ripple Control, as it were known, used low frequencies of between $100\,Hz$ and $900\,Hz$. It also needed high power transmitters of about $10\,KW$ power. Initially unidirectional, it was used to manage street lights. Bidirectional communication was developed during the early 1990's, when the possibility of the use of much higher frequencies and reduction of signal power was realised.
+
+\section*{How it works}
+The basic concept Power Line Communication is modulating a radio signal with data and sending it through power lines in a band of frequencies which are not used for supplying electricity. Because the data signal and the electric current vibrate at different frequencies, there will be no interference between the two signals.
+
+\section*{Advantages}
+Powerline communication has several advantages, most of which are generally classified under two broad categories
+\begin{enumerate}
+\item Last mile access. Most of our appliances and gadgets need electric power and so the penetration of the power lines allows even the most remote of places to have potential access to the Internet
+\item Power line communication relies on the fact that "the infrastructure is alredy there". There is little need for laying down new cables as the poles and cables are already in place
+\end{enumerate}
+Based on how it works, there can still be connectivity even though there may be a power cut, unless there is physical damage to the cable infrastructure itself. That way, battery powered devices could still have connectivity.
+
+\section*{Challenges}
+\begin{enumerate}
+\item How to make the signal "jump" across transformers without the need of additional devices. Transformers are by nature high magnetic flux machines and they retain their inductance for a while, something that is detremental to data transfer.
+\item Radio inteference. Because of power lines being mostly outside, it makes them antennaes for interference from lightning, cosmic radiation, nearby wires and the likes.
+\item Noise. There is always an introduction of noise in the cables whenever a device is switched on or off. Electric motors also introduce a regular noise on the line as the brushes connect and disconnect repeatedly.
+\end{enumerate}
+
+\section*{In a nutshell}
+powerline communication offers really good potential to connect the most remote of devices to the Internet. The commercial viability of the venture also needs to be thought over in the lines of who the ultimate responsibility the infrastructure lies upon in case of faults. Is it the power company or is it the data company or both of them in a 50-50 relationship.
+
+In order for Powerline Communications to become a reality, the IEEE has begun to develop IEEE P1675$^{TM}$ \emph{Standard for Broadband over Power Line Hardware}
+
+\begin{thebibliography}{9}
+
+\bibitem{shamim}
+
+Shamim Ziaee and Xavier N. Fernando, Senior member of IEEE,
+\emph{Broadband over Power Line: An Overview},
+Ryerson University, Toronto, ON.
+
+\bibitem{seema}
+Seema M. Sing, Esq
+\emph{Broadband Over Power Lines}
+ State of New Jersey
+  
+
+
+\end{thebibliography}
+
+
+\end{multicols}
+
+\end{document}
